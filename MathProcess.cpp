@@ -25,7 +25,7 @@ int PointToInt(cv::Point point)
     }
 }
 
-std::vector<int> PointsToints(std::vector<Tile> &tiles)
+std::vector<int> PointsToInts(std::vector<Tile> &tiles)
 {
     std::vector<int> result;
     for (int i = 0; i < tiles.size() - 1; i++)

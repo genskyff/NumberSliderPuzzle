@@ -31,7 +31,7 @@ std::vector<Tile> ShuffleTiles(std::vector<Tile> &tiles)
         std::mt19937 g(rd());
         std::shuffle(shuffledTiles.begin(), shuffledTiles.end() - 1, g); // 最后1个一开始不显示，所以不用打乱
 
-        if (Calculateinversions(PointsToints(shuffledTiles)) % 2 == 0)
+        if (Calculateinversions(PointsToInts(shuffledTiles)) % 2 == 0)
         {
             // std::cout << "The inverse ordinal number is even, shuffled successfully!" << std::endl;
             return shuffledTiles; // 只返回逆序数为偶数的打乱结果
