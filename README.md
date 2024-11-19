@@ -3,7 +3,7 @@
 A simple 3x3 Number Slider Puzzle game based on OpenCV.
 
   
-## Requirements
+## Build requirements
 1. CMake
 2. OpenCV Release
 
