@@ -11,7 +11,7 @@ A simple 3x3 Number Slider Puzzle game based on OpenCV.
 ## How to build
 ```bash
 cd build
-cmake -G "MinGW Makefiles"
+cmake -G "MinGW Makefiles" ..
 make
 ```
 It also supports MSVC.
