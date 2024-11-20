@@ -1,5 +1,9 @@
-.vscode
-/build/*
-!/build/
-!/build/pic/
-!/build/pic/*
+.DS_Store
+.idea/
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+.xmake/
+build/
+.cache/
+/compile_commands.json
