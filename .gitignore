@@ -1,6 +1,6 @@
 .DS_Store
-.idea/
-.vscode/
+.idea
+.vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
 .xmake/
